@@ -8,8 +8,6 @@ func main() {
 		"Address" : "Indo",
 	}
 
-
-
 	fmt.Println(person)
 	fmt.Println(person["Name"])
 	fmt.Println(len(person)) // len(map)
