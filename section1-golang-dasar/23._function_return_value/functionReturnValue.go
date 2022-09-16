@@ -13,5 +13,7 @@ func sayHelloTo(name string) string {
 func main() {
 	result := sayHelloTo("Eko")
 	fmt.Println(result)
+
+	fmt.Println(sayHelloTo(""))
 }
 
