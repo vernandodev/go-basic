@@ -43,7 +43,7 @@ func runApp(error bool) {
 }
 
 func main() {
-	runApplication(0)
+	// runApplication(0)
 	runApp(false)
 	fmt.Println("EKo")
 }
