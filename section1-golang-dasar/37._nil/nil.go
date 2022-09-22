@@ -15,7 +15,7 @@ func newMap(name string) map[string]string {
 }
 
 func main() {
-	var person map[string]string = newMap("")
+	var person map[string]string = newMap("Eko")
 
 	if person == nil {
 		fmt.Println("Data kosong")
