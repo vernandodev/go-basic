@@ -16,10 +16,10 @@ type Customer struct {
 
 func main() {
 	// cara 1
-	// var eko Customer
-	// eko.Name = "Eko"
-	// eko.Address = "IDN"
-	// eko.Age = 30
+	var eko Customer
+	eko.Name = "Eko"
+	eko.Address = "IDN"
+	eko.Age = 30
 
 	// cara 2
 	// eko := Customer {
@@ -29,7 +29,7 @@ func main() {
 	// }
 
 	// cara 3
-	eko := Customer {"Eko", "IDN", 30}
+	// eko := Customer {"Eko", "IDN", 30}
 
 	fmt.Println(eko)
 	fmt.Println(eko.Address)
